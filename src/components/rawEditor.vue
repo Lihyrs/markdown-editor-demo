@@ -29,7 +29,6 @@ export default {
 
 <style>
     #raw-editor {
-        float:left;
         width:45%;
         height:100%;
     }

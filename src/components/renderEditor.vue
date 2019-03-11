@@ -1,30 +1,21 @@
 <template>
-    <div id="render-editor">
-        {{html}}
+    <div id="render-editor" v-html="render">
     </div>
 </template>
 
 <script>
-// import { mapState } from 'vuex';
+import { mapState } from 'vuex';
 
 export default {
-    // data() {
-    //     return {
-    //         html: '',
-    //     };
-    // },
-    computed: {
-        html() {
-            // console.log('render===>', this.$store);
-            return this.$store.state.render;
-        },
-    },
+
+    computed: mapState({
+        render: state => state.render,
+    }),
 };
 
 </script>
 <style>
     #render-editor {
-        float:right;
         width:50%;
         height:100%;
         overflow: scroll;
