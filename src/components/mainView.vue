@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="content">
         <raw-editor></raw-editor>
         <render-editor></render-editor>
     </div>
@@ -8,8 +8,8 @@
 
 
 <script>
-import rawEditor from '../components/rawEditor.vue';
-import renderEditor from '../components/renderEditor.vue';
+import rawEditor from './rawEditor.vue';
+import renderEditor from './renderEditor.vue';
 
 export default {
     components: {
@@ -18,3 +18,12 @@ export default {
     },
 };
 </script>
+
+<style lang="scss">
+#content{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 500px;
+}
+</style>
