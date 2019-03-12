@@ -1,29 +1,7 @@
-# markdown
+# markdown editor demo
+> 主要使用vue全家桶(vue,vuex和vue-router), [highlight.js](https://github.com/highlightjs/highlight.js,"highlight"), [markdown-it](https://github.com/markdown-it/markdown-it,"markown-it")
 
-## Project setup
-```
-npm install
-```
+### 预览图
+![demo](https://github.com/Lihyrs/markdown-editor-demo/screenshot/demo.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
