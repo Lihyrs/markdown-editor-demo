@@ -5,8 +5,8 @@
           class="form-control"
           type="textarea"
           placeholder="输入markdown格式内容"
-          autosize="true"
-          autofocus="true"
+          autosize
+          autofocus
           >
         </el-input>
     </div>

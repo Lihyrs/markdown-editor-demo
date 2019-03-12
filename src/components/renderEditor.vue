@@ -20,8 +20,9 @@ export default {
         height:100%;
         overflow: scroll;
         min-height: $minHt;
-        border: 1px solid rgb(169, 169, 169);
+        border: 1px solid#C0C4CC;
         padding-left: 10px;
+        border-radius: 4px
     }
 
 </style>
