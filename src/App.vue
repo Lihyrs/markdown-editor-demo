@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div :class="{'header-wrapper':true,'hidden':isErr}">
+    <div :class="{'header-wrapper':true, /*'hidden':isErr*/}">
       <el-menu
         mode="horizontal"
         background-color="#545C64"
